@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E950FD25B7D1420035395A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E950FC25B7D1420035395A /* AppDelegate.swift */; };
+		94E950FF25B7D1420035395A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E950FE25B7D1420035395A /* SceneDelegate.swift */; };
+		94E9510125B7D1420035395A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9510025B7D1420035395A /* ViewController.swift */; };
+		94E9510425B7D1420035395A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E9510225B7D1420035395A /* Main.storyboard */; };
+		94E9510625B7D1460035395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E9510525B7D1460035395A /* Assets.xcassets */; };
+		94E9510925B7D1460035395A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E9510725B7D1460035395A /* LaunchScreen.storyboard */; };
+		94E9512825B7F04A0035395A /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512225B7F04A0035395A /* dog.jpg */; };
+		94E9512925B7F04A0035395A /* squirrelsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512325B7F04A0035395A /* squirrelsound.mp3 */; };
+		94E9512A25B7F04A0035395A /* dogsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512425B7F04A0035395A /* dogsound.mp3 */; };
+		94E9512B25B7F04A0035395A /* squirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512525B7F04A0035395A /* squirrel.jpg */; };
+		94E9512C25B7F04A0035395A /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512625B7F04A0035395A /* cat.jpg */; };
+		94E9512D25B7F04A0035395A /* catsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94E9512725B7F04A0035395A /* catsound.mp3 */; };
+		94E9513225BA107F0035395A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9513125BA107F0035395A /* Animal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94E950F925B7D1420035395A /* Zoolander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoolander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E950FC25B7D1420035395A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94E950FE25B7D1420035395A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94E9510025B7D1420035395A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94E9510325B7D1420035395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94E9510525B7D1460035395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E9510825B7D1460035395A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94E9510A25B7D1460035395A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E9512225B7F04A0035395A /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		94E9512325B7F04A0035395A /* squirrelsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = squirrelsound.mp3; sourceTree = "<group>"; };
+		94E9512425B7F04A0035395A /* dogsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dogsound.mp3; sourceTree = "<group>"; };
+		94E9512525B7F04A0035395A /* squirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squirrel.jpg; sourceTree = "<group>"; };
+		94E9512625B7F04A0035395A /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		94E9512725B7F04A0035395A /* catsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = catsound.mp3; sourceTree = "<group>"; };
+		94E9513125BA107F0035395A /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E950F625B7D1420035395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94E950F025B7D1420035395A = {
+			isa = PBXGroup;
+			children = (
+				94E950FB25B7D1420035395A /* Zoolander */,
+				94E950FA25B7D1420035395A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94E950FA25B7D1420035395A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E950F925B7D1420035395A /* Zoolander.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E950FB25B7D1420035395A /* Zoolander */ = {
+			isa = PBXGroup;
+			children = (
+				94E950FC25B7D1420035395A /* AppDelegate.swift */,
+				94E950FE25B7D1420035395A /* SceneDelegate.swift */,
+				94E9513125BA107F0035395A /* Animal.swift */,
+				94E9510025B7D1420035395A /* ViewController.swift */,
+				94E9510225B7D1420035395A /* Main.storyboard */,
+				94E9510525B7D1460035395A /* Assets.xcassets */,
+				94E9510725B7D1460035395A /* LaunchScreen.storyboard */,
+				94E9510A25B7D1460035395A /* Info.plist */,
+				94E9512125B7F04A0035395A /* Content */,
+			);
+			path = Zoolander;
+			sourceTree = "<group>";
+		};
+		94E9512125B7F04A0035395A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				94E9512225B7F04A0035395A /* dog.jpg */,
+				94E9512325B7F04A0035395A /* squirrelsound.mp3 */,
+				94E9512425B7F04A0035395A /* dogsound.mp3 */,
+				94E9512525B7F04A0035395A /* squirrel.jpg */,
+				94E9512625B7F04A0035395A /* cat.jpg */,
+				94E9512725B7F04A0035395A /* catsound.mp3 */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E950F825B7D1420035395A /* Zoolander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E9510D25B7D1460035395A /* Build configuration list for PBXNativeTarget "Zoolander" */;
+			buildPhases = (
+				94E950F525B7D1420035395A /* Sources */,
+				94E950F625B7D1420035395A /* Frameworks */,
+				94E950F725B7D1420035395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoolander;
+			productName = Zoolander;
+			productReference = 94E950F925B7D1420035395A /* Zoolander.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E950F125B7D1420035395A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					94E950F825B7D1420035395A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 94E950F425B7D1420035395A /* Build configuration list for PBXProject "Zoolander" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E950F025B7D1420035395A;
+			productRefGroup = 94E950FA25B7D1420035395A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E950F825B7D1420035395A /* Zoolander */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E950F725B7D1420035395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E9512D25B7F04A0035395A /* catsound.mp3 in Resources */,
+				94E9512925B7F04A0035395A /* squirrelsound.mp3 in Resources */,
+				94E9512825B7F04A0035395A /* dog.jpg in Resources */,
+				94E9510925B7D1460035395A /* LaunchScreen.storyboard in Resources */,
+				94E9510625B7D1460035395A /* Assets.xcassets in Resources */,
+				94E9510425B7D1420035395A /* Main.storyboard in Resources */,
+				94E9512A25B7F04A0035395A /* dogsound.mp3 in Resources */,
+				94E9512C25B7F04A0035395A /* cat.jpg in Resources */,
+				94E9512B25B7F04A0035395A /* squirrel.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E950F525B7D1420035395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E9510125B7D1420035395A /* ViewController.swift in Sources */,
+				94E9513225BA107F0035395A /* Animal.swift in Sources */,
+				94E950FD25B7D1420035395A /* AppDelegate.swift in Sources */,
+				94E950FF25B7D1420035395A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94E9510225B7D1420035395A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E9510325B7D1420035395A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94E9510725B7D1460035395A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94E9510825B7D1460035395A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94E9510B25B7D1460035395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94E9510C25B7D1460035395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E9510E25B7D1460035395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 923L57K7SN;
+				INFOPLIST_FILE = Zoolander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.edu.Zoolander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94E9510F25B7D1460035395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 923L57K7SN;
+				INFOPLIST_FILE = Zoolander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uchicago.edu.Zoolander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E950F425B7D1420035395A /* Build configuration list for PBXProject "Zoolander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E9510B25B7D1460035395A /* Debug */,
+				94E9510C25B7D1460035395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E9510D25B7D1460035395A /* Build configuration list for PBXNativeTarget "Zoolander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E9510E25B7D1460035395A /* Debug */,
+				94E9510F25B7D1460035395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94E950F125B7D1420035395A /* Project object */;
+}
